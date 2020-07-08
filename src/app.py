@@ -16,10 +16,10 @@ with open("src/config.yaml", 'r') as stream:
     APP_CONFIG = yaml.full_load(stream)
 
 app = Flask(__name__)
-
+export_file_name = 'export.pkl'
 
 def load_model(path=".", model_name="model.pkl"):
-    learn = load_learner(path, fname=model_name)
+    learn = load_learner(path, export_file_name)
     return learn
 
 
