@@ -3,3 +3,5 @@ torchvision
 Flask==1.0.2
 fastai
 pretrainedmodels
+flask-cors
+Werkzeug
