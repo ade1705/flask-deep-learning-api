@@ -5,3 +5,4 @@ fastai
 pretrainedmodels
 flask-cors
 Werkzeug
+gunicorn
