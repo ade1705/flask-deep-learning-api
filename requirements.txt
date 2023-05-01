@@ -1,6 +1,6 @@
 https://download.pytorch.org/whl/cpu/torch-1.5.1%2Bcpu-cp36-cp36m-linux_x86_64.whl
 torchvision
-Flask==1.0.2
+Flask==2.3.2
 fastai
 pretrainedmodels
 flask-cors
